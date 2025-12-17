@@ -5,10 +5,9 @@ const repeatString = function(string, num) {
             array[i] = string;
          }
     return array.join("");
-    } else if (num < 0){
+    } else {
         return "ERROR";
     }
-    
 };
 
 // Do not edit below this line
